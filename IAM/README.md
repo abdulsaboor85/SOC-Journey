@@ -144,7 +144,6 @@ diagnosed using logs, and fixed with evidence — not guessing.
 |---|---|---|
 | FreeRADIUS duplicate server error on startup | Backup config file left inside active sites-enabled folder | Moved backup file out of the folder |
 | Unknown Module error when loading config | Old-style multi-argument function syntax not supported in FreeRADIUS 3.2.5 | Rewrote the logic using regex matching which works across all versions |
-| Regex silently returned false even with correct pattern | FreeRADIUS 3.2.5 uses POSIX regex engine — `\d` is not recognized | Replaced `\d` with explicit `[0-9]` character class |
 | PAM check always failed silently | FreeRADIUS was sending the full combined string to LDAP, PAM was never reached | Added password splitting logic in the authorize block before Auth-Type is set |
 | Finance user denied despite being in the correct group | A duplicate group with wrong capitalization was still bound to the app | Confirmed the app binding pointed to `Finance_GRoup` not `Finance_Group` |
 | VPN-Ali TOTP codes rejected after working fine | TOTP secret was regenerated during testing but not re-synced in the authenticator app | Manually re-entered the new secret key into the Chrome Authenticator extension |
