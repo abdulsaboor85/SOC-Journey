@@ -168,8 +168,6 @@ diagnosed using logs, and fixed with evidence — not guessing.
 
 ## 📸 Screenshots
 
-### Active Directory Structure
-![Active Directory](screenshots/active-directory-tree.png)
 
 ### Authentik Dashboard — All Three Apps
 ![Authentik Apps](screenshots/authentik-apps.png)
@@ -179,9 +177,6 @@ diagnosed using logs, and fixed with evidence — not guessing.
 
 ### FreeRADIUS Returning Access-Accept
 ![RADIUS Accept](screenshots/radius-accept.png)
-
-### VPN Connected — Tunnel IP Assigned
-![VPN ipconfig](screenshots/vpn-ipconfig.gif)
 
 ---
 
