@@ -89,9 +89,7 @@ FreeRADIUS bugs that are not documented anywhere online.
 6. If the employee belongs to the correct department group — access granted
 7. If not — access denied, even with correct credentials
 
-**Live demo:**
 
-![Web Login 2FA Demo](screenshots/web-login-2fa.gif)
 
 ---
 
