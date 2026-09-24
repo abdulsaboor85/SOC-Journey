@@ -199,5 +199,4 @@ net use \\localhost\ipc$ /user:Administrator WrongPassword123!
 ## Known Limitations
 
 - Test alerts were generated locally (RDP/PowerShell into Windows-Target itself), so the "attacker" IP shows as loopback (`::1`) rather than a real external address. The extraction logic is confirmed correct — a real external attack would populate a real IP.
-- Shodan enrichment was built and tested working, then removed to keep the workflow simpler.
 - File-based Sysmon alerts (e.g. "Executable dropped in folder") carry no network/IP data — this is expected, not a bug.
