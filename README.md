@@ -25,7 +25,7 @@
 | 2 | [Snort IDS Lab](./Snort/) | Intrusion Detection, Network Signatures | ✅ Complete |
 | 3 | [Wazuh SIEM Lab](./Wazuh_Report/) | Log Analysis, Security Monitoring | ✅ Complete |
 | 4 | [Wireshark Analysis](./wireshark/) | Packet Capture, Traffic Analysis | ✅ Complete |
-| 5 | [Mini SOAR on AWS](./Mini-SOAR/) | Automated detection, threat enrichment, case management, and response using Wazuh, TheHive, n8n, and VirusTotal | ✅ Complete |
+| 5 | [Mini SOAR on AWS](.https://github.com/abdulsaboor85/SOC-Journey/tree/main/%20Mini-SOAR) | Automated detection, threat enrichment, case management, and response using Wazuh, TheHive, n8n, and VirusTotal | ✅ Complete |
 
 ---
 
