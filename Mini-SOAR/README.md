@@ -31,7 +31,7 @@ Full pipeline tested and confirmed working end to end, including:
 
 ## Documentation
 
-- [`SETUP.md`](SETUP.md) — full step-by-step build guide, including every issue hit and how it was fixed
+- [`how_to_set.md`](how_to_set.md) — full step-by-step build guide, including every issue hit and how it was fixed
 - [`REPORT.md`](REPORT.md) — findings, challenges, and lessons learned
 
 ## Key Challenges Solved
