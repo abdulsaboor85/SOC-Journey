@@ -2,11 +2,10 @@
 
 # 🛡️ SOC Journey — Cybersecurity Portfolio
 
-### Hands-on security labs built from scratch, broken, debugged, and confirmed working.
+### Hands on security labs built from scratch, broken, debugged, and confirmed working.
 
 *Bachelor of Computer Science — Final Year*
 *Capital University of Science and Technology (CUST)*
-
 
 ---
 
@@ -26,20 +25,19 @@
 | 2 | [Snort IDS Lab](./Snort/) | Intrusion Detection, Network Signatures | ✅ Complete |
 | 3 | [Wazuh SIEM Lab](./Wazuh_Report/) | Log Analysis, Security Monitoring | ✅ Complete |
 | 4 | [Wireshark Analysis](./wireshark/) | Packet Capture, Traffic Analysis | ✅ Complete |
+| 5 | [Mini SOAR on AWS](./Mini-SOAR/) | Automated detection, threat enrichment, case management, and response using Wazuh, TheHive, n8n, and VirusTotal | ✅ Complete |
 
 ---
 
 ## 🔬 About This Repository
 
-Every lab in this repository was built inside a virtualized environment
-using real enterprise tools. The focus throughout is on understanding
-why security controls exist, not just how to configure them.
+I built every lab in this repository myself, inside a virtualized environment, using the same tools real security teams use. My focus throughout has been understanding why these security controls exist, not just clicking through a setup guide.
 
 Each project includes:
-- A full explanation of what was built and why
-- Real challenges encountered during the build
-- Evidence based troubleshooting using debug logs
-- Screenshots and recordings of the working system
+- A full explanation of what I built and why I built it that way
+- The real problems I ran into while building it
+- How I actually debugged those problems, using logs and evidence rather than guessing
+- Screenshots and recordings showing the finished system actually working
 
 ---
 
@@ -51,6 +49,8 @@ Each project includes:
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![pfSense](https://img.shields.io/badge/pfSense-212121?style=for-the-badge&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 
 ---
 
@@ -64,7 +64,6 @@ Each project includes:
 
 ## Disclaimer
 
-All activities, demonstrations, and security testing documented in this repository were performed in authorized laboratory or virtual environments for educational purposes only.
+Everything in this repository, every test, every demonstration, was done in an authorized lab or virtual environment purely for learning purposes.
 
-Do **not** use any techniques, commands, or tools shown in this repository against computers, networks, or systems that you do not own or do not have explicit permission to test.
-
+Please do **not** use any technique, command, or tool shown here against a computer, network, or system that you do not own or do not have clear permission to test.
