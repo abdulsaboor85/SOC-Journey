@@ -20,7 +20,7 @@
 <p align="center">
 <a href="Honeypot_SOC_Report.pdf"><b>📄 Read the full report (PDF)</b></a>
 &nbsp;|&nbsp;
-<a href="video/honeypot_demo.mp4"><b>▶ Watch the demo video</b></a>
+<a href="video/honeypot.mp4"><b>▶ Watch the demo video</b></a>
 </p>
 
 ---
